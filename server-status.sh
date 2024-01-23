@@ -47,6 +47,7 @@ else
 	echo "$scan" > /tmp/${service_name}Status
 fi
 
+#generate the information needed for the discord bot such as name, discord avatar, and information that is embeded
 generate_post_data() {
   cat <<EOF
 {
